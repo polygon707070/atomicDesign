@@ -1,0 +1,20 @@
+
+@import 'bootstrap.less';
+
+body {
+	background-color: lighten(salmon, 20%)
+}
+img {
+	.img-responsive();
+	//-webkit-filter: grayscale(1) brightness(2) contrast(10) sepia(100%) hue-rotate(90deg);
+	&:hover {
+		-webkit-filter: none;
+	}
+	float: left;
+}
+#previewCursor {
+	position: absolute;
+}
+canvas {
+	background-color: white;
+}
